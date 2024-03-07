@@ -1,7 +1,7 @@
 const jose = require('jose');
 const crypto = require('crypto');
 
-const JWT_ISSUER = 'https://www.todomejora.org/'
+const JWT_ISSUER = 'https://www.dominio.org/'
 const JWT_AUDIENCE = JWT_ISSUER + 'app/';
 const JWT_EXPIRE = '8h'
 const JWT_ALG = 'dir';
